@@ -11,18 +11,11 @@ const Navbar = () => {
         <div className="nav-center">
           <Header />
           <PageLinks parentClass="nav-link" />
-
-          {/* New Link for Registration */}
-          <Link to="/registration" className="nav-link">
-            Register
-          </Link>
-
           <SocialLinks />
         </div>
       </nav>
     </div>
   );
 };
-
 
 export default Navbar;
