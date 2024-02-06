@@ -1,0 +1,32 @@
+
+.navbar-wrapper {
+    position: relative;
+    z-index: 1000; /* Korkeampi z-indeksi varmistaa, että navigaatiopalkki on päällä */
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar h1 {
+    color: #fff;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+  }
+  
+  .social-links {
+    margin-left: auto;
+  }
+  

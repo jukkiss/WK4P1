@@ -1,0 +1,39 @@
+/* registration.css */
+
+.registration-container {
+    width: 300px;
+    margin: 50px auto; /* Keskittää lomakkeen sivun keskelle */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-title {
+    text-align: center; /* Keskittää otsikon */
+  }
+  
+  .registration-container form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .registration-container form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .registration-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-container form button:hover {
+    background-color: #0056b3;
+  }
+  
