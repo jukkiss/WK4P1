@@ -1,7 +1,7 @@
 // import PageLink from "./PageLink";
 import SocialLink from "./SocialLink";
 import PageLinks from "./PageLinks";
-import { pageLinks, socialLinks } from "../data";
+import { socialLinks } from "../data";
 
 function Footer() {
 	return (
